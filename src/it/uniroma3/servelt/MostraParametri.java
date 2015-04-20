@@ -16,7 +16,8 @@ public class MostraParametri extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
 		// gestione della RICHIESTA
-
+		
+		//aggiunto commento
 		// leggo i parametri
 		String nome = request.getParameter("nome");
 		String cognome = request.getParameter("cognome");
